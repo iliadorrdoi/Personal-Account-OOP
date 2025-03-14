@@ -1,64 +1,64 @@
 # Personal Account Management
 
-## 📌 Описание
+## 📌 Description
 
-Этот проект представляет собой систему управления личным банковским счётом, реализованную с использованием **объектно-ориентированного программирования (ООП)** в Python.
+This project is a personal bank account management system implemented using **Object-Oriented Programming (OOP)** in Python.
 
-Проект включает два класса:
+The project includes two classes:
 
-- **Amount** – хранит информацию о транзакциях.
-- **PersonalAccount** – управляет счётом, выполняя депозиты, снятие средств и сохраняя историю операций.
+- **Amount** – stores transaction details.
+- **PersonalAccount** – manages the account, handles deposits, withdrawals, and transaction history.
 
-## 🛠 Структура проекта
+## 🛠 Project Structure
 
-- `personal_account.py` – основной код программы.
-- `UML_PersonalAccount.png` – диаграмма классов.
-- `README.md` – описание проекта.
+- `personal_account.py` – main program code.
+- `UML_PersonalAccount.png` – class diagram.
+- `README.md` – project documentation.
 
-## 📌 Как запустить
+## 📌 How to Run
 
-1. Установите Python (если не установлен). Проверить версию можно командой:
+1. Install Python (if not installed). Check the version with:
    ```bash
    python --version
    ```
-2. Скачайте файлы проекта.
-3. Запустите код:
+2. Download the project files.
+3. Run the code:
    ```bash
    python personal_account.py
    ```
 
-## 📌 Функциональность
+## 📌 Features
 
-- Создание банковского счёта.
-- Внесение депозита.
-- Снятие денег (с проверкой баланса).
-- Просмотр истории транзакций.
-- Получение текущего баланса.
+- Create a bank account.
+- Deposit money.
+- Withdraw money (with balance validation).
+- View transaction history.
+- Check current balance.
 
-## 📌 UML-диаграмма
+## 📌 UML Diagram
 
 
 
-## 📌 Пример работы
+## 📌 Example Usage
 
 ```python
-# Создание аккаунта
+# Creating an account
 account = PersonalAccount(123456, "John Doe")
 
-# Внесение депозита
+# Depositing money
 account.deposit(500)
 
-# Снятие денег
+# Withdrawing money
 account.withdraw(200)
 
-# Вывод текущего баланса
+# Checking current balance
 print(account.get_balance())
 
-# Печать истории транзакций
+# Printing transaction history
 account.print_transaction_history()
 ```
 
-## 📌 Автор
+## 📌 Author
 
-**[Эльдияр Алмазбеков]** – студент [Международный Университет "Ала-тоо"]
+**Eldiiar Almazbekov** – Student at Ala-too International University(MATDAIS23)
 

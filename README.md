@@ -61,4 +61,3 @@ account.print_transaction_history()
 ## 📌 Author
 
 **Eldiiar Almazbekov** – Student at Ala-too International University(MATDAIS23)
-
